@@ -88,7 +88,7 @@ jobs:
         ref: ${{ github.event.workflow_run.head_branch }}
 
     - name: Wait for build to succeed
-      uses: fountainhead/action-wait-for-check@507b029e31edbe1a72d4de429476e1f4efe98869
+      uses: fountainhead/action-wait-for-check@297be350cf8393728ea4d4b39435c7d7ae167c93
       id: wait-for-build
       with:
         timeoutSeconds: 1500
